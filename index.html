@@ -43,7 +43,7 @@
             let m = new Date().getMinutes();
             let s = new Date().getSeconds();
             let ampm = "AM";
-          if(h> 12)
+          if(h< 12)
            {
            h = h - 12;
           ampm = "PM";
@@ -54,7 +54,7 @@
   hourEl.innerText = h;
   minuteEl.innerText = m;
   secondEl.innerText = s;
-  ampmEl, (innerText = ampm);
+  ampmEl.innerText = ampm;
   setTimeout(()=>{
     clock() 
   }, 1000)
