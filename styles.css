@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+
+
+
 body {
     margin: 0; 
     font-family: sans-serif;
@@ -15,6 +19,8 @@ h1 {
     color: white; 
     font-family: sans-serif; 
     letter-spacing: 4px; 
+    font-family: 'Oleo Script Swash Caps', cursive;
+    text-transform: uppercase; 
 }
 h2 {
     text-transform: uppercase;
